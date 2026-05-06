@@ -1,0 +1,44 @@
+name: "모드 추가/제거 요청"
+description: "모드팩에 추가하거나 제거했으면 하는 모드를 건의합니다."
+labels: ["mod-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        모드 추가/제거 건의 감사합니다.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "요청 유형"
+      options:
+        - "모드 추가"
+        - "모드 제거"
+        - "모드 버전 변경"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_name
+    attributes:
+      label: "모드 이름"
+      placeholder: "예: Create Slice & Dice"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_link
+    attributes:
+      label: "모드 링크"
+      description: "CurseForge 또는 Modrinth 링크"
+      placeholder: "https://modrinth.com/mod/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "요청 사유"
+      description: "왜 이 모드를 추가/제거하고 싶은지 설명해주세요."
+    validations:
+      required: true

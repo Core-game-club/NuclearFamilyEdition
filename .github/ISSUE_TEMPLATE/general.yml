@@ -1,0 +1,16 @@
+name: "일반 건의"
+description: "모드팩에 대한 기타 건의사항이나 질문을 남깁니다."
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        건의사항이나 질문을 자유롭게 남겨주세요.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: "내용"
+      description: "건의사항 또는 질문을 작성해주세요."
+    validations:
+      required: true
