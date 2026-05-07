@@ -1,0 +1,16 @@
+filename = 'ManyIdeasDoors-1.21.1-2.0.1.jar'
+name = 'ManyIdeas Doors'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.10', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1a59b7f2afd5ec8f79b97a857b01e85a04e3b822e05cdaa895fdb54ae83a71b1094440da47d182e2201e36ca6797d270efa0114879f885c9eafd0d68d26a4db3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B4U5vxjd/versions/iTPemriP/ManyIdeasDoors-1.21.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'B4U5vxjd'
+version = 'iTPemriP'
