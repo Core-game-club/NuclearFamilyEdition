@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".packignore"
-hash = "9515dd3c0b8116eb6c6b380aabf6f3cd92a05cafe45fbc4158629dae20fc68e8"
+hash = "527e2444a7e7326a8a8ac7f10e4e142ffe71a4cbe15241ecf32349b4a791f56d"
 
 [[files]]
 file = "minecraft/kubejs/README.txt"
