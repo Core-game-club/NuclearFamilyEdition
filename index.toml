@@ -1,32 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/ISSUE_TEMPLATE/bug_report.yml"
-hash = "a14e54bd13ee9766e7821f522e6eb7c9167182f4b9d3a17e6ffe24ba4ba06b06"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/config.yml"
-hash = "eee911e733af65cfd3ab8edab19c41c112381cd7f690d227c4622aae9c03fb77"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/general.yml"
-hash = "db185844acd92d5e795f4aa72152c72e283f84afe3b8d62e9e82472c1f6ef2cf"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/mod_request.yml"
-hash = "1031b2828771774f67070ed7be2edda454a04db93d732950134d45758b2b7691"
-
-[[files]]
 file = ".packignore"
-hash = "1ecfe6558f58badb90d40b623b1237d212a0f86916d53bb1e934964d09d604d0"
-
-[[files]]
-file = "README.md"
-hash = "4f67277ab5fc6a2087c30fa72b95dc6051358f69944296f085de18488f336dc7"
-
-[[files]]
-file = "instance.cfg"
-hash = "42d2957b328fb789688571a2d691f91caea6250747eb2148e1fa0769b54248ca"
+hash = "9515dd3c0b8116eb6c6b380aabf6f3cd92a05cafe45fbc4158629dae20fc68e8"
 
 [[files]]
 file = "minecraft/kubejs/README.txt"
@@ -58,12 +34,12 @@ hash = "6e9d76a27bf5e161249ae66713cf51a40e344445a87bb8b9911c6a85995c8f89"
 
 [[files]]
 file = "minecraft/mods/.index/ae2.pw.toml"
-hash = "4c23114933e1c1b477abf9f2da0b767ba1fb6c09b07b3a54e677ebb6c294caf8"
+hash = "53b0b5307a576188172dfdb3ea1a97a0a95bdceea7a8f0f5ff4c11310203c364"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/alltheleaks.pw.toml"
-hash = "7a0fb419921d2d5f76a33ea89b511ae1a3da1b02562ab357b4800b34059556be"
+hash = "7b62ebf62d80175754b24722b95868556635c48e4f3d2da908aa619106492052"
 metafile = true
 
 [[files]]
@@ -73,27 +49,27 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/ante.pw.toml"
-hash = "f6947b77da4aa0ee4ed60b3e82052637e2a5f7323cec929a8c81b0de00133ccd"
+hash = "6c11c9dcf1f77aeaf11ba4e6433e94fb0e3681afb53cda1ebfe087519af1f723"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/appleskin.pw.toml"
-hash = "b431ad040b7ec6920988e6290aa1ec3dd4ce50d70b7419afa011eea20d50fee7"
+hash = "e965739ab07762ce1cd1e8914a87ef528f8dfad5091fa7f667cecbcecb72eb50"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/architectury-api.pw.toml"
-hash = "3c5afd30b70adf475d71e49f0912539dfbcf11478ed119a4f4e6d502aa07f7ce"
+hash = "7c6257dd15da9513b8e3c3a228f0394ebdb9bb943d3456c47454e3126abda93d"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/balm.pw.toml"
-hash = "4e08e9e521452327f53e29a64f6d747b9439811bd709dd9f5acd0ecb8b8b99d0"
+hash = "e836de9e1eb13f1e6ceccb5e9446ded37cd0056be072face533d4f2780921feb"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/bellsandwhistles.pw.toml"
-hash = "7bd3c98e3de942f466925744c24f77588f1cd0b7dc2432464fff29304948bd4f"
+hash = "2a4004a5c406de3fbb145f1aebe5daf82279399aa3e8f1e69451286d8277d34b"
 metafile = true
 
 [[files]]
@@ -103,7 +79,7 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/caelus.pw.toml"
-hash = "5ef830a47d7c88ca22d607006cde81d250131cf7f3aa7f6daab1f700a65bc6f2"
+hash = "d6786b901ec6e3c59fe2f6a15f737accd9dabc0afadbc76213ee970d1376fd29"
 metafile = true
 
 [[files]]
@@ -113,7 +89,7 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/carry-on.pw.toml"
-hash = "cc96b4bab8b7a7f137a245d67b446c75a353ba3d6609e9239da155099a543d6b"
+hash = "758640600c205d2be8b4a04c7ab1ea801ee3f790af413e1d24d1514b11e90544"
 metafile = true
 
 [[files]]
@@ -123,92 +99,92 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/clumps.pw.toml"
-hash = "faf97ee51a85007fe8fa7a0ffca9a9d661a7d86a7cf02e5623c214898815d9cb"
+hash = "7ba5752b11e6c1e97fdc609ed53dc29c7c641e0cbf260a2904a9d927686030db"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/controlling.pw.toml"
-hash = "91ca2a0e6c511aa3df0ca6d433fa9e52c1799fc6ea8489bee6b6825b39503035"
+hash = "113183657252896ea7bdac7ff0a80b330658783efeba4e99a47b4a5883b92f51"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/copycats.pw.toml"
-hash = "1cf0666d0d83ca652c5702dfb0adc5386b669810fcfbc5147e95d468190f59c6"
+hash = "b7b30d81e87fdfb60cd16f5aa0cf6cb86be9280e67cc852b82a249e35f1ca1cf"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/crafting-tweaks.pw.toml"
-hash = "045bc1ae35a05df0970df13cd33f64d7d17a8f8a8fb05f6dcda87ae353e3227e"
+hash = "6d0a1c0e05fa76adcbe1b418340cdf2027c79b550506bddf2796a0be831c9892"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-big-cannons.pw.toml"
-hash = "120c8c1205b59ac645a5872662761057b818ec3f87fd45dd93615eaadaf94cc6"
+hash = "bec82e52599d646b659bc2562bfa93fac5c35e95d10693bd1e9f8db204012a45"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-central-kitchen.pw.toml"
-hash = "11418dea016b79a5957fa8780a88b9ca77d40d058322b5d55527e7a2b905407e"
+hash = "8cd935c35cd82bf00100c2169ca9a20a6fa03f3e42267948b84556a46016220e"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-connected.pw.toml"
-hash = "e6c687e142a37f5597a189ebc8028c46f257ea4b0e25ba5e0b27c5d8c648de65"
+hash = "c267a4a8241fd1e00541cff473a99aa77ca09730153759bf5338882cb0f163e7"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-deco.pw.toml"
-hash = "98db7dff22beca288d7a314a6da9fe3ae44843c2d22adfde17148d7b1308cee1"
+hash = "1f991b8abe2e157fba20889430b4544de308954aa1ecb792f229be015deed9f4"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-design-n-decor.pw.toml"
-hash = "3b29f3334411fbd8d4f22da1d646bfe906e226162abc436bce873a7254337679"
+hash = "f1bbaabfe7b4d1ed703291a7dc5407d7a710e81f9419a76e530a82059afab5c2"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-dragons-plus.pw.toml"
-hash = "0b04d59d41958b31e8d7fb6b8e2cb7e53227508080b3f2781c130193392e173d"
+hash = "8e1c85e2b281bc45bc4a319fe5d84a25636b75e029b0a1e2aaf83d8ae92e904f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-dreams-and-desires.pw.toml"
-hash = "a19be107f8fa54f60472ad330ab14b4eb2a4d2004aa56623dbe66c3355a13240"
+hash = "4d83b4f682d9f04d80b3910a6158ac8d6091fded1567da5157a08aa9f648ed58"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-enchantment-industry.pw.toml"
-hash = "02b97e658e9c54672eb2ca526060ffa212c3bf2f8291dc39ada48607b81dfe4f"
+hash = "3370bdb074965c32f3093375ebdc9b5819ff1e4f10b4aafeaa50ac92850c78a3"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-goggles.pw.toml"
-hash = "4334141c3ea6eb58aef311effd6af3d1098475a6b1838ccc8e00c810b39d6843"
+hash = "57005da42cc6de322909225d586c3d5b04f042b79680cb92728e30bd67bb6dc5"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-new-age.pw.toml"
-hash = "0f7fd0d88ef7901e3e3ea70a76a21d43ed56afb504af24eb6bddb042b420157d"
+hash = "1904c2a58b8a8e57f8fcc3227c92dab782240c6d7aaa69bac78c37cbcada5b2d"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create-railways-navigator.pw.toml"
-hash = "24518a3d98ac3af27ca06e2b2de8d495323140ed1ef4606f59283ca4fbcdda9f"
+hash = "121d5caf9b8000888a762a126cf9c66094def13633284342c1419695ff07f524"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/create.pw.toml"
-hash = "5cfca134d4424d9df59171ed20d62176c0400799978f9ec652e0a2ba5976aa13"
+hash = "64eb70ac43a97802d6a281ce89ce84b257bb8ce44766e36660cf6ba431f3e6bf"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/createaddition.pw.toml"
-hash = "8ec037b5a1089bc4e3ed081627aa1d5a4ffb3209e111ff310b47856c739fef33"
+hash = "75d76540a071b9a917577b89960f285ccaca81860a073574c838e3856022c6cf"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/cultural-delights.pw.toml"
-hash = "1e931e7d2f793c5ed68e411b88b9c85c58254b1a8e04506806462176e16dbefd"
+hash = "8fd3826e7bdc8713233345abfb9f2476c4d5faf987f38a86d932456045ad7cb6"
 metafile = true
 
 [[files]]
@@ -218,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/curios.pw.toml"
-hash = "8cfdfca589157217c3bd617dad6b298f82b4818e1cf67383ce9f2d5b85a9f997"
+hash = "19548ab1918538e1d7f298c26e5a5a920c142978ce9c4ffac147f96f70a48931"
 metafile = true
 
 [[files]]
@@ -233,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/dragonlib.pw.toml"
-hash = "c2244570ad884e2280953cc93702f56579a286c49cca8c2f7ab107596be9a08e"
+hash = "0a9e596e0e029be37a4ba064ea671add7aa3eed6e3f7f2b059fd84eebc6dd66b"
 metafile = true
 
 [[files]]
@@ -243,32 +219,32 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/dungeons-and-taverns.pw.toml"
-hash = "3768cbe69a97653c65573fe28d6ca9a839b4316435c3cc85183468c5e35a87a1"
+hash = "c384c37b610c95f3968c72461643bd79876268108e2a448e72980b464c2400d2"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/dynamic-fps.pw.toml"
-hash = "9b0c5adf5b67a784f483cb30f1ca860efccadd3fc412917b600eb2655e2c14de"
+hash = "017240cfbdd977adfba3c88ba82066187149db1c12d8269ff01b827430f9e29a"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/elytra-slot.pw.toml"
-hash = "bd7510682124b7c2f11335f3f76b7bc0045eedef4f756a51043087dfe26ea599"
+hash = "1a50cea2ef5d8cb72c3cba5553c846d940108029f053aaf54843d74f6e5aeee1"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/emi.pw.toml"
-hash = "44fbf18e6cc2ebe9362dabab0982bf258de109764921fc70f85820878c171b52"
+hash = "ce3e8229027cf2af17d54f2136e3a8e0dc0191325fdf456803e6367ee6786597"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/ends-delight.pw.toml"
-hash = "a6aab20a3e8c3aed1f19fab8e391fd2dd2005dd01835282b2b87b0b1b6400bea"
+hash = "a09f2533a4265591fd97da626c11d12e65e9154849009ea0d81cd1e2185425a2"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/entityculling.pw.toml"
-hash = "9fdbed07119940eb84933bc57fc1c84c20ba41a14c6656603eb1deda7bb9f6b9"
+hash = "65a733843d1f3f8b1e5cf81e966c3ba8d7f528ff9a6a764339c4fed7b4420a30"
 metafile = true
 
 [[files]]
@@ -278,12 +254,12 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/exposure.pw.toml"
-hash = "962343ba5cb7edc756e490c05bc71f7ce0e3243065629684f1239f7ed97873c9"
+hash = "7bfb3eb413d6c8904b614576d004748599143646cdd314822e213b841a7dac9b"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/extended-ae.pw.toml"
-hash = "84bd52b919b8d3820dd9aaa9de8b01efac81e1bbfe74df2e0c22cbbfaef0b8fb"
+hash = "1c21340acdcc4f6073edba8428b6fec7ce35c1ea0f4654d6f9b1e14cde838cba"
 metafile = true
 
 [[files]]
@@ -293,42 +269,42 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/faewufs-diversity.pw.toml"
-hash = "45da45c069c48cfa71ee9dce07e07b3929baf249122d41af310b3ee4de13e989"
+hash = "191c77da7a87471ca98e87a61f3ef89cac64d39f796cc38e78f6045274f36fcf"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/faewulfslib.pw.toml"
-hash = "4c106130c9843d419f11cc6e3686466f9861b7a08ef0551381c7e80dfe5e1d92"
+hash = "a1f152e65f5d9d466f64dcd29863e4c80d15913e034d2c0b1ddb9b184fa0caba"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/farmers-delight.pw.toml"
-hash = "c83ec13a3ee160cf1be253328f39e0840f20e18db9cd882df1bd2a38bb8bf547"
+hash = "d0ee0cbcd2bebd4399dffa785f5eeb4cc6b8530503500e08fa009ac0b61301e4"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/ferrite-core.pw.toml"
-hash = "bef7bce8eafcdbe82e8cad178e96d581c2431eb263c53d71fb3b77222ad22a8a"
+hash = "9d5bc76dcdecd0a6a0f8895daf463c9dea9aa053eb587839bddfa1b5763ed77f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/ftb-library-forge.pw.toml"
-hash = "297f7d9cf4dd3ff7c5d1ff6305d99fc5bc62cd2c056e3eba5fa176a7c84c8900"
+hash = "c7401eb1b1348285b533682df3acde06df4c8d3e03f6d5f7817581b26b07a09d"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/ftb-ultimine-forge.pw.toml"
-hash = "5dadaabbafa5939b2f1b970034370cdc8d95fe2339974133d22eeb0b0066b1e6"
+hash = "2ff7407d072434cb0a721cabfef7887d60250349c62626e0f5264cc0a4a7cf90"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/functional-storage.pw.toml"
-hash = "70cfb0a233a3d16c0e28e2f930c41ba9b2d704227a40c6ab50bfbf93f64f0d43"
+hash = "801b9b4bf59dd59bbfc18efe94afc277b1412ca591595be7141e1ead83c14d10"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/fzzy-config.pw.toml"
-hash = "ec458cc2bfcc217707c183110bcd5a1c2275e8a6d541f06e1659bdfcffcec9b1"
+hash = "de42d01611438377821d25fbf48503444f4364e095cd9a7cb8e281245ab37372"
 metafile = true
 
 [[files]]
@@ -338,12 +314,12 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/glodium.pw.toml"
-hash = "9a818854b2d0b14d607e2ab20c8a7d484b9378149ae81614ca5fde0fc3c923cc"
+hash = "a8cd2645d0e2c106cc1b7eb2bac11ce070be6a89d4cf3ecd38dd9b2a92844237"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/guideme.pw.toml"
-hash = "fc3b23fa3958158ac981f1e834a95d96dfb8383638b0b5eb66824a793ff5153b"
+hash = "c21719941b679ed103dff1f3c553e66c9b28640ffc9ed23b8a2f26f205511d1c"
 metafile = true
 
 [[files]]
@@ -353,87 +329,87 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/immediatelyfast.pw.toml"
-hash = "7c0b3e48815305b368e18f9f1646e82763ec9354e4a17042c3d0abe77bf5aef5"
+hash = "bbe8904034289bfaa834647be87a4c685e16605d2281a951ceb454e7b9a1a095"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/immersive-paintings.pw.toml"
-hash = "f04db32bba915982c8f100f4a8ca584d5b17c95d0798c7373af1de1a51a1332e"
+hash = "5a4570c2320dca413077ee6f5ad02e9ca672414133d858414892b51eef0a65ca"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/iris.pw.toml"
-hash = "4fafb5885889e52b56dbdeb4a7193b45bf52043a9aa17f55d6403781ae61222f"
+hash = "0610f18af7cfebca686cb9a50af211b7dcc21ecc0b1b65d386457c32780eb607"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/jade-addons-forge.pw.toml"
-hash = "6608916d566df159b7b91887face45576594a2c06b6735e4ae544facd4f5b514"
+hash = "22a5f6a270a286ede631438eb0d7b8dd9908eefef1b0896021bcdea8f32f78e9"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/jade.pw.toml"
-hash = "1cf6a8e95e12fa88bcb6a8f5d78e606463bb2eeeea49020e49a4c09a721b2f15"
+hash = "7bdc5a45ccccb61ac285b6da56dfb41dc1582ce2fb8187986bee99820a7c5a1f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/jamlib.pw.toml"
-hash = "033c66c32b2a9982ebd872bbabd4c62c76f7181c8f381082bcea267f5e940aec"
+hash = "4fd1b63fdb7245e735e64406a314336354e639fbce9bbd848583d9f4e3b17ca5"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/jei.pw.toml"
-hash = "a82ed6ce2c450df7d965dc7d155fccc4702c2561f6d475bd53b45aead14f9ca2"
+hash = "3ee0587e076f747b23abd58d164f6f04e743304b329f87976a32f0556c5e948a"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/kotlin-for-forge.pw.toml"
-hash = "e1876181face1aa5d93996587a5dfb6d4c981afb8657187bdbc9f79c272a052b"
+hash = "c8cd5bd57ed4c4a2cb706cd5ac0aae64780c4390b5262f77e7fd12f6c6059f71"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/kubejs.pw.toml"
-hash = "51092f39274deb079f826f3c1bcb891b00d6406b47f1e3b973b19fb0687bff99"
+hash = "f84df7559afd1a8977c29bd9b30ad825f0c948d1a54391437edd5d39546dc5b6"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-addon-compat.pw.toml"
-hash = "86cc6d6cea5bdfffdaa8836683e5bb5311218c16c6fa44da6c4a5082af3e9ed3"
+hash = "e650b626ca524155ffa8d6f9aac222af3d8cc884de63099a238043fd3f6d78be"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-bakery-farmcharm-compat.pw.toml"
-hash = "c293d05dd734c79b08b2afd6f5d3a5f13063ef782b5887df4809c032702ef645"
+hash = "1339518e4f83c42fe2a0464372e80282b38b71e68273b81f31e5e0586df3ff0c"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-brewery-farmcharm-compat.pw.toml"
-hash = "02bf1152d4386f14925f8752da851be21c6ef03cbd4948505009cad11c4b5281"
+hash = "9d630027ccdd589f62f84d01e30f7096a3eb00892a49d6dedec606cc8dc8d2d3"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-farm-charm.pw.toml"
-hash = "f928c5587b3408b6e5d10c48444d58e111f5509ad7a554d7378fe158a6f6c79f"
+hash = "e592b202f00929909d67df2228fdd17b19d12621e399db62860ce5888095e4cd"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-herbalbrews.pw.toml"
-hash = "6cfc376fa2b3816bcf9b593b3103aeb2655e150e4524c58be06fac7f7068915d"
+hash = "0829d405386263f4cfc6a472c58d742e68dd09cd5483a1a9d5501cf8e3453e90"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lets-do-vinery.pw.toml"
-hash = "a490c7047da21c53cabea776c34e9cb40f49c0680761522d5a8e585dfcd35f07"
+hash = "a1f80e0149ddb7b00457fcc3cf7f1bc9202fc2dec61c0abfda66d046d574101a"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lithium.pw.toml"
-hash = "d97aae1ca8ef9a754e290540d2c6209e256c998041b4e2ea2cda6d5c9c86eb71"
+hash = "64f6618147c8b6c4b90022f6eeb5741dea09cc241bde21c6d5e86373f9791091"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/lootr.pw.toml"
-hash = "c1a5f13ae8b163d342aba132ff46aa3a0979df45183eb3c8b96d0ae0fd091f46"
+hash = "5c57f1a11c8f13717c37487828ba79e785df05ddb4133413b9652933d4b01266"
 metafile = true
 
 [[files]]
@@ -448,27 +424,27 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mega.pw.toml"
-hash = "1c9bf183c3d3785c19bf951be38f770fbf1f42df5f6a6938968740742626dd3c"
+hash = "2bce8a737abdf6e303987f8480caf14765836441ee842379f813014a1715420f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mekanism-covers.pw.toml"
-hash = "fb46efee13c7fb1ae823d70007bb9e2e652f902580c980ff84cb7a9853dd569c"
+hash = "c114c9c89efd5499db94794a6dd476d824da730d3193100c82c32f0e3c4678ca"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mekanism-generators.pw.toml"
-hash = "d485a212b296890c4c10143fe1aa605251cc7075eb386df3c12ae1ab585606cc"
+hash = "c8cdea41fc17a6a6d23b383e9ceff36b17d0ac150aff04ee06a37d6b1b004473"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mekanism.pw.toml"
-hash = "e1f0b648366c514ed919f8dd34f270aae57b15f8c7c20a0c723bbf7280620f7f"
+hash = "ecf7aab04364fd12e3ae87ab99c33372f20ed4f7f7fa52e69d2d6f404b13c403"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mmmmmmmmmmmm.pw.toml"
-hash = "a9420db4306639ff692693bb99c4ef8e28118a25b9047bfecc57f976a85109ac"
+hash = "44e97bf03c4bb67f5302564cbd4b793fd1757c2d4f565be95d8cea3671c8211c"
 metafile = true
 
 [[files]]
@@ -478,27 +454,27 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/moonlight.pw.toml"
-hash = "8466878fc8706b2be9a3dab541c428217fdeaf79befbaa034f160b8220a7abf3"
+hash = "3a882dae33f40199d2098fcf23bad3b4c5e0d6920c846234ef2e0654e1984f10"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/more-delight.pw.toml"
-hash = "c623eb5723963346d81db11b927847a3887de6f93ed558627650363bbddcaac3"
+hash = "ae78bda67682f7ee2fb0a89916cd8466c52ffc9112ea8ca573f648673cd79427"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/mouse-tweaks.pw.toml"
-hash = "b1140d4ae2de37565ffd603c1e018b7efeacb53142014bfcf702b567490d31cf"
+hash = "e9fd97c7edb302adc2e8e04ba9f3e8b61da36bacc552df41a980644a512b5982"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/my-nethers-delight.pw.toml"
-hash = "1efcdc87c7008a8eaf47e565478d145bcce570bcdf56ecad3b55191d6b10f871"
+hash = "18a5147aef60b2fc5e9e5e59af74c4a0ec0ce0ae2410d5b089f7b1f2685e9bf0"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/no-chat-reports.pw.toml"
-hash = "5843d5286233c5dc16fadc404f67e60b8d7bd7eb26fd4f2387834abace38f37b"
+hash = "dbf3571e78f952a31f3f669e855a902348cfcba667df271a98b8b6f60112584c"
 metafile = true
 
 [[files]]
@@ -518,57 +494,57 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/reeses-sodium-options.pw.toml"
-hash = "88a224bb7ed128a523a0a27c42c571c2e049705e2d21227d1e9d18878835cda2"
+hash = "f4201319c497cfe78e78c45ed295f8123e854a9908dbd2bb5397e523780928b9"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/rhino.pw.toml"
-hash = "c926052ae7ef769d1e015d6dc05838a2d184b2a0e5ef7aef6f258e79a54b45cf"
+hash = "5656db7db4dc0642f0a831c374fa8e3a1e337bdc207d2658fcac64f464f3a076"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/rightclickharvest.pw.toml"
-hash = "df84e5996acd50f7a66e9d725b69d10194830663471f7a7b40f8b1ed21c0a030"
+hash = "5b3c5453f1e26f452ddaaf74b760efdf5a6b70acffddb69a76c54dce0115cc18"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/rpl.pw.toml"
-hash = "203ae720c7260429b5c55c6d024c8f9c100327248a3a6804d22f8af0b420ecba"
+hash = "1ab5c74a874ef709e9664d5666ef7b5fdf23656ebb64c3a340545f8247edcfe8"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/searchables.pw.toml"
-hash = "dbf910b625622730bd57e4d0512ab0cc5348e1005f003b8bcd21d4266e753b5e"
+hash = "69e16ce4b96694dac1f51a4a20b09c7598a6399abba7a042c0acc19e1c2a8b2d"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/slice-and-dice.pw.toml"
-hash = "5b552e531a3f3ed424a5d41cf09c0052c261b352bb1f904f7b67dc4a03a06b33"
+hash = "a9c56b53fe5de69e25401494e7123ec902137d00579e8bce1d6153d6cf6c26e5"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/sodium-extra.pw.toml"
-hash = "83cbd69925cb4636c69e484bb0ef1a223e5c6a222f3c2d49ab2fc88c1fca496e"
+hash = "dedb96becd75be7e0647580af81081139d1a96d9d73f628d8ff1bc0d51640b78"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/sodium.pw.toml"
-hash = "97e4a76823d8342d421c4fe521452a6ceaabdbcf13482df8212d5318c3a2dd08"
+hash = "94204420269974b02371285f63e531b20685a9b6cb2c766cb1e8ff954b2756a7"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/sophisticated-backpacks.pw.toml"
-hash = "dd016b0860b32b9753cd3de600956297923d7decd8af57f438f955031df8b096"
+hash = "2760ca5db227ef286f4e3bb2e986754385fb4b0e52eaa563a2820a87c73b97c5"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/sophisticated-core.pw.toml"
-hash = "89ff507097147ef2ca5197bf0cc48374e6e9eab318d6c208e79c19dc8419ace2"
+hash = "e53af374a207df947bb46f45103af537603b8d5c8311616c438dfb213d01cfcf"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/sophisticated-storage.pw.toml"
-hash = "6ca4ad0db47fc9c91bbc3031f63bae0b7fd9191179cb37233ab5cc04aad76c69"
+hash = "ec550f285642d3be83cd42bfa4bb1f44489209ff22f639a3340b8020f6f957b0"
 metafile = true
 
 [[files]]
@@ -593,7 +569,7 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/tacz-js.pw.toml"
-hash = "f49031d63ab0903a60b2a91a8e8c5fa1c2e10fbd1bb56daacd9b72370e6328a2"
+hash = "ce92b6e1aa1de0db478b554167e03c059b382a29b74ef676c33e4e71334a98a6"
 metafile = true
 
 [[files]]
@@ -603,17 +579,17 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/titanium.pw.toml"
-hash = "99a28d11e95acef9204fe3386906a13e322210ef56e5911a30d0119e8f3d11d9"
+hash = "1453338db4fe7a9bd1604f476232d9d9ada065cf941ecd87dc30e373313d7c2f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/trade-cycling.pw.toml"
-hash = "b32a09fd6875d21d7a0a1843cd18e489291a3529711fab9c734251e53a2c1632"
+hash = "1e7ba930fb8f2efc7c27f82d8b64f5d90deb1a9fdb0c09f804af20e26fcd1a4f"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/trashslot.pw.toml"
-hash = "ef1f3cd3befc4ff56ac8acf78f36f8928d88b9fb948ca9c4871d8d47d5b3cee7"
+hash = "8ad1a83b253878d42e61ab4776d2abf7fbd32fbf71a89b7a09420d56ad79ec57"
 metafile = true
 
 [[files]]
@@ -623,17 +599,17 @@ metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/xaeros-minimap.pw.toml"
-hash = "761c02d05338bc1963e93c3b1400fcad267a3c52c70bd3636b7927d266c1c144"
+hash = "2c483de46cb28ad1df570eb31bc0d2724321999a5277ec0abfdcc94e3de6fe3e"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/xaeros-world-map.pw.toml"
-hash = "131d6dae74cbb5625012c407f31f343987510698d180acbb76a36d341c595f7c"
+hash = "7ff68c8066a4c5ce414e9dfd71c04805f68f133aded91cd191208f75aaee649c"
 metafile = true
 
 [[files]]
 file = "minecraft/mods/.index/yes-steve-model.pw.toml"
-hash = "0edf21d33da84d21c1374ac1ca1111cb81d5968b01a5000efafa21eb099bfa80"
+hash = "1ad60378860daba374138df771b26b5cf12b925d984ee205e9288e29557c67c6"
 metafile = true
 
 [[files]]
@@ -1107,10 +1083,6 @@ hash = "73b1447333e467d23645ce7b2c319f3ca951b393b44b3a6ed0f41f06927d42bb"
 [[files]]
 file = "minecraft/mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar"
 hash = "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb"
-
-[[files]]
-file = "minecraft/packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "minecraft/tacz/Applied Armorer-v1.1.4.1-for114++1.21.1.zip"
@@ -12899,7 +12871,3 @@ hash = "fd675c36ce192dec5d56e5d5e5dd8380deac32071007847a380d3e91e7e92472"
 [[files]]
 file = "minecraft/tacz/tacz_default_gun/gunpack.meta.json"
 hash = "5419a196ae5d34b22b9209369cd70147ac889ed45facb46e527f35ad7633f8d7"
-
-[[files]]
-file = "mmc-pack.json"
-hash = "da963b320ed89e85644451abfcd252f8cda724e23697629b950522b465aeb2c9"

@@ -8,8 +8,8 @@ x-prismlauncher-release-type = 'release'
 [download]
 hash = '0e69c2a8e4e51df42e45b2d6deb3a855bdf8dce6'
 hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+mode = 'url'
+url = 'https://edge.forgecdn.net/files/7943/676/dummmmmmy-1.21-2.0.12-neoforge.jar'
 
 [update.curseforge]
 file-id = 7943676
