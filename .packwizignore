@@ -1,0 +1,35 @@
+# Instance working files
+instance.cfg
+mmc-pack.json
+README.md
+.git/**
+.gitattributes
+.github/**
+.vercelignore
+.packwizignore
+minecraft/packwiz-installer-bootstrap.jar
+
+# Runtime files
+minecraft/.mixin.out
+minecraft/TrashSlotSaveState.json
+minecraft/XaeroWaypoints_BACKUP240807
+minecraft/command_history.txt
+minecraft/config
+minecraft/coremods
+minecraft/defaultconfigs
+minecraft/downloads
+minecraft/dynamic-data-pack-cache
+minecraft/dynamic-resource-pack-cache
+minecraft/icon.png
+minecraft/moonlight-global-datapacks
+minecraft/options.txt
+minecraft/resourcepacks
+minecraft/saves
+minecraft/schematics
+minecraft/screenshots
+minecraft/server-resource-packs
+minecraft/shaderpacks
+minecraft/texturepacks
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/xaero
