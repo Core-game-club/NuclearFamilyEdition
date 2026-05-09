@@ -13,7 +13,7 @@ StartupEvents.registry('item', event => {
     event.create('sniper_core').displayName('§b저격총 코어');
     event.create('shotgun_core').displayName('§b산탄총 코어');
     event.create('lmg_core').displayName('§b경기관총 코어');
-    event.create('launcher_core').displayName('§b폭발류 코어');
+    event.create('launcher_core').displayName('§b중화기 코어');
 
     // 4 모드 코어
     event.create('armorer_core').displayName('§eArmorer 코어');

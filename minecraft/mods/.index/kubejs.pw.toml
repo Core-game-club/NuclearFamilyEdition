@@ -8,8 +8,8 @@ x-prismlauncher-release-type = 'release'
 [download]
 hash = 'd4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2'
 hash-format = 'sha1'
-mode = 'url'
-url = 'https://edge.forgecdn.net/files/8012/65/kubejs-neoforge-2101.7.2-build.363.jar'
+mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 8012065

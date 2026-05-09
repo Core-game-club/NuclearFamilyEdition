@@ -8,8 +8,8 @@ x-prismlauncher-release-type = 'beta'
 [download]
 hash = '790521847538f4812f7050ae250af9d43bd011c1'
 hash-format = 'sha1'
-mode = 'url'
-url = 'https://edge.forgecdn.net/files/7445/372/taczjs-neoforge-1.4.0%2Bmc1.21.1.jar'
+mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 7445372

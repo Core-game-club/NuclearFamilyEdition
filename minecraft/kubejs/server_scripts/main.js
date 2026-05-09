@@ -1,20 +1,15 @@
 // =============================================================================
-// TaCZ Balance — 15개 코어 제작 레시피 (검증된 형식만 사용)
+// TaCZ Balance — 15개 코어 제작 레시피
 // =============================================================================
-// 1차 시도(machine recipes) 결과 검증: 작동 / 비작동 분리됨.
+// 모든 코어는 vanilla shaped 레시피 1종으로 제작 (모드 머신 레시피 모두 제거).
 //
-// [작동 검증된 모드 레시피 4종 — 유지]
-//   - Create Pressing      : armorer, t2
-//   - Create Mixing        : launcher
-//   - Create New Age 충전  : ba
-//
-// [실패한 9종 — 제거됨, 모두 vanilla shaped 로 대체]
-//   Mekanism (Metallurgic Infuser/PRC/Compressor) — per_tick_usage 필드 등 1.21.1
-//     포맷 변경으로 미작동. 이후 정확한 포맷 확인되면 다시 추가 가능.
-//   AE2 Inscriber, Create Sequenced Assembly, CBC Casting — 각 모드별 recipe
-//     type 또는 sequence step 포맷 차이.
-//
-// 모든 코어는 최소 1개의 vanilla shaped 레시피로 제작 가능. JEI/EMI에서 보임.
+// [제거 이력]
+//   - armorer_core_pressing / ba_core_energising / t2_core_pressing
+//     → 1:1 변환이라 shaped 대비 비용 1/9, 밸런스 파괴 발생
+//   - launcher_core_mixing
+//     → 사용자 요청으로 제거, shaped 단독 운영
+//   - Mekanism / AE2 / Create Sequenced Assembly / CBC Casting 9종
+//     → 1.21.1 포맷 오류로 미작동, 추후 정확한 포맷 확인 후 재추가 가능
 // =============================================================================
 
 ServerEvents.recipes(event => {
@@ -96,18 +91,8 @@ ServerEvents.recipes(event => {
         C: 'mekanism:steel_casing'
     }).id('kubejs:lmg_core_recipe');
 
-    // ----- 폭발류 코어 — Create Mixing + shaped fallback
-    // TNT → 강철 케이싱, 화약 → 압축 화약, 황동판 → 철판
-    safeCustom('launcher_core_mixing', {
-        type: 'create:mixing',
-        ingredients: [
-            { item: 'mekanism:steel_casing' },
-            { item: 'createbigcannons:packed_gunpowder', count: 4 },
-            { tag: 'c:plates/iron', count: 2 }
-        ],
-        results: [{ id: 'kubejs:launcher_core', count: 1 }],
-        heat_requirement: 'superheated'
-    });
+    // ----- 중화기 코어 — shaped only
+    // (이전 Create Mixing 레시피 제거 — shaped 단독으로 운영)
     event.shaped('kubejs:launcher_core', [
         'BGB',
         'GTG',
@@ -122,13 +107,8 @@ ServerEvents.recipes(event => {
     // 모드 코어 (4)
     // =========================================================================
 
-    // ----- Armorer 코어 — Create Pressing + shaped fallback
-    // 모서리(빈 공간)에 강화 합금 추가, 가운데 철주괴 → 과충전된 철 주괴
-    safeCustom('armorer_core_pressing', {
-        type: 'create:pressing',
-        ingredients: [{ tag: 'c:ingots/refined_obsidian' }],
-        results: [{ id: 'kubejs:armorer_core', count: 1 }]
-    });
+    // ----- Armorer 코어 — shaped only
+    // (이전에 Create Press 1:1 변환이 있었으나 shaped 대비 비용 1/9 로 밸런스 파괴 → 제거)
     event.shaped('kubejs:armorer_core', [
         'AOA',
         'ORO',
@@ -139,13 +119,8 @@ ServerEvents.recipes(event => {
         R: 'create_new_age:overcharged_iron'
     }).id('kubejs:armorer_core_recipe');
 
-    // ----- BA 코어 — Create New Age Energising (작동 검증됨) + shaped fallback
-    safeCustom('ba_core_energising', {
-        type: 'create_new_age:energising',
-        ingredients: [{ item: 'minecraft:diamond' }],
-        results: [{ id: 'kubejs:ba_core', count: 1 }],
-        energy_needed: 5000
-    });
+    // ----- BA 코어 — shaped only
+    // (이전에 Create New Age Energising 다이아 1개 → ba_core 였으나 shaped 대비 1/9 비용으로 밸런스 파괴 → 제거)
     event.shaped('kubejs:ba_core', [
         'LDL',
         'DMD',
@@ -196,13 +171,8 @@ ServerEvents.recipes(event => {
         R: 'minecraft:redstone'
     }).id('kubejs:t1_core_recipe');
 
-    // ----- T2 코어 — Create Pressing + shaped fallback
-    // 안산암 합금 → 안산암 합금 블럭, 강철 주괴 → 강철 케이싱
-    safeCustom('t2_core_pressing', {
-        type: 'create:pressing',
-        ingredients: [{ tag: 'c:ingots/andesite_alloy' }],
-        results: [{ id: 'kubejs:t2_core', count: 1 }]
-    });
+    // ----- T2 코어 — shaped only
+    // (이전에 Create Press 안산암 합금 1개 → t2_core 였으나 shaped 대비 1/9 비용으로 밸런스 파괴 → 제거)
     event.shaped('kubejs:t2_core', [
         'ASA',
         'SRS',
@@ -225,6 +195,26 @@ ServerEvents.recipes(event => {
     }).id('kubejs:t3_core_recipe');
 
     // ----- T4 코어 — 정제 흑요석 블록 + 반물질 + T3 코어 (이전 numeric key 문제 해결)
+    event.custom({
+        
+        "type": "mekanism:nucleosynthesizing",
+        "chemical_input": {
+            "amount": 4000,
+            "chemical": "mekanism:antimatter"
+        },
+        "duration": 2000,
+        "item_input": {
+            "count": 1,
+            "item": "kubejs:t3_core"
+        },
+        "output": {
+            "count": 1,
+            "id": "kubejs:t4_core"
+        },
+        "per_tick_usage": false
+        
+    })
+
     event.shaped('kubejs:t4_core', [
         'OAO',
         'AXA',
