@@ -4,5 +4,3 @@ README.md
 .git
 .gitattributes
 .github
-.packwizignore
-minecraft/packwiz-installer-bootstrap.jar
