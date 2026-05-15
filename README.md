@@ -96,7 +96,7 @@ mods/ (140개)
 │   ├── another_furniture-neoforge-4.0.2.jar
 │   ├── diversity-neoforge-1.21.1-2.5.3.jar
 │   ├── DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar
-│   ├── effortlessbuilding-1.21.1-3.10-all.jar
+│   ├── effortlessbuilding-4.1+1.21.11.jar
 │   ├── FramedBlocks-10.5.3.jar
 │   ├── immersive_paintings-neoforge-1.21.1-0.7.6.jar
 │   ├── ManyIdeasCore-1.21.1-3.0.1.jar
