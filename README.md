@@ -26,7 +26,7 @@ Minecraft 1.21.1 NeoForge 커스텀 모드팩
 ## 모드 목록
 
 ```
-mods/ (127개)
+mods/ (140개)
 │
 ├── Create 시리즈 (16)
 │   ├── bellsandwhistles-0.4.7-1.21.1.jar
@@ -42,11 +42,12 @@ mods/ (127개)
 │   ├── CreateDragonsPlus-1.10.0b.jar
 │   ├── creategoggles-1.21.1-6.1.1-[NEOFORGE].jar
 │   ├── createrailwaysnavigator-neoforge-1.21.1-beta-0.9.0-C6.jar
+│   ├── createstockbridge-1.21.1-0.2.0.jar
 │   ├── DnDesires-1.21.1-2.3a-BETA.jar
-│   ├── railways-0.1.0+neoforge-mc1.21.1.jar
 │   └── sliceanddice-forge-4.2.4.jar
 │
-├── 기술/자동화 (16)
+├── 기술/자동화 (19)
+│   ├── AdvancedAE-1.6.11-1.21.1.jar
 │   ├── ae2wtlib-19.5.0.jar
 │   ├── Applied-Mekanistics-1.6.3.jar
 │   ├── appliedenergistics2-19.2.17.jar
@@ -58,8 +59,10 @@ mods/ (127개)
 │   ├── Mekanism-1.21.1-10.7.19.85.jar
 │   ├── MekanismGenerators-1.21.1-10.7.19.85.jar
 │   ├── merequester-neoforge-1.21.1-1.4.2.jar
+│   ├── schematicenergistics-1.21.1-1.5.2.jar
 │   ├── sophisticatedbackpacks-1.21.1-3.25.44.1736.jar
 │   ├── sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar
+│   ├── sophisticatedbackpacksetchedintegration-1.21.1-1.0.0-1.21.1-neoforge.jar
 │   ├── sophisticatedcore-1.21.1-1.4.38.1847.jar
 │   ├── sophisticatedstorage-1.21.1-1.5.46.1717.jar
 │   └── sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar
@@ -72,10 +75,12 @@ mods/ (127개)
 │   ├── tacz-pack-upgrader-2.0.0.jar
 │   └── taczjs-neoforge-1.4.0+mc1.21.1.jar
 │
-├── 음식/농업 (12)
+├── 음식/농업 (15)
+│   ├── barbequesdelight-1.3.0.jar
 │   ├── culturaldelights-0.17.8.jar
 │   ├── ends_delight-2.5.1+neoforge.1.21.1.jar
 │   ├── FarmersDelight-1.21.1-1.3.1.jar
+│   ├── fruitsdelight-1.2.14.jar
 │   ├── letsdo-bakery-neoforge-2.1.6.jar
 │   ├── letsdo-brewery-neoforge-2.1.9.jar
 │   ├── letsdo-farm_and_charm-neoforge-1.1.22.jar
@@ -84,12 +89,14 @@ mods/ (127개)
 │   ├── letsdocompat-neoforge-2.3.1.jar
 │   ├── moredelight-26.04.30-1.21-neoforge.jar
 │   ├── MyNethersDelight-1.21.1-1.10.2.jar
-│   └── RecipesLibrary-1.21.1-4.0.1.jar
+│   ├── RecipesLibrary-1.21.1-4.0.1.jar
+│   └── VeggiesDelight-1.21.1-1.9.2.jar
 │
-├── 건축/장식 (9)
+├── 건축/장식 (10)
 │   ├── another_furniture-neoforge-4.0.2.jar
 │   ├── diversity-neoforge-1.21.1-2.5.3.jar
 │   ├── DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar
+│   ├── effortlessbuilding-1.21.1-3.10-all.jar
 │   ├── FramedBlocks-10.5.3.jar
 │   ├── immersive_paintings-neoforge-1.21.1-0.7.6.jar
 │   ├── ManyIdeasCore-1.21.1-3.0.1.jar
@@ -105,18 +112,22 @@ mods/ (127개)
 │   ├── lootr-neoforge-1.21.1-1.11.37.120.jar
 │   └── wwoo-2.3.4.jar
 │
-├── 유틸리티/QoL (25)
+├── 유틸리티/QoL (29)
 │   ├── AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar
 │   ├── appleskin-neoforge-mc1.21-3.0.9.jar
+│   ├── bluemap-5.4-neoforge.jar
 │   ├── caramelChat-mc1.21.1-neoforge-1.2.2.jar
+│   ├── carryon-neoforge-1.21.1-2.2.2.11.jar
 │   ├── Controlling-neoforge-1.21.1-19.0.5.jar
 │   ├── craftingtweaks-neoforge-1.21.1-21.1.10.jar
 │   ├── discord_chat_mod-neoforge-1.21.1-2.6.2.jar
 │   ├── elytraslot-neoforge-9.0.2+1.21.1.jar
 │   ├── emi-1.1.22+1.21.1+neoforge.jar
+│   ├── envelope-neoforge-1.21.1-0.6.0.jar
 │   ├── etched-5.0.1.jar
 │   ├── exposure-neoforge-1.21.1-1.9.16.jar
 │   ├── ExtremeSoundMuffler-3.56_NeoForge-1.21.jar
+│   ├── fastleafdecay-35.jar
 │   ├── ftb-ultimine-neoforge-2101.1.13.jar
 │   ├── invtweaks-1.21.1-1.2.0.jar
 │   ├── Jade-1.21.1-NeoForge-15.10.5.jar
@@ -132,7 +143,7 @@ mods/ (127개)
 │   ├── xaerominimap-neoforge-1.21.1-25.3.13.jar
 │   └── xaeroworldmap-neoforge-1.21.1-1.40.16.jar
 │
-├── 성능 최적화/디버그 (16)
+├── 성능 최적화/디버그 (17)
 │   ├── chunkactivitytracker-neoforge-1.0.1-1.21.1.jar
 │   ├── Clumps-neoforge-1.21.1-19.0.0.1.jar
 │   ├── does_it_tick-neoforge-1.1.4-1.21.1.jar
@@ -140,6 +151,7 @@ mods/ (127개)
 │   ├── entityculling-neoforge-1.10.1-mc1.21.1.jar
 │   ├── ferritecore-7.0.3-neoforge.jar
 │   ├── ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar
+│   ├── immersive_optimization-neoforge-1.21-0.1.4.jar
 │   ├── iris-neoforge-1.8.12+mc1.21.1.jar
 │   ├── lithium-neoforge-0.15.3+mc1.21.1.jar
 │   ├── modernfix-neoforge-5.27.6+mc1.21.1.jar
@@ -154,7 +166,8 @@ mods/ (127개)
 │   ├── txnilib-neoforge-1.0.24-1.21.1.jar
 │   └── ysm-2.6.5-neoforge+mc1.21.1-release.jar
 │
-├── 스크립팅 (2)
+├── 스크립팅 (3)
+│   ├── kubejs-mekanism-neoforge-2101.1.7-build.18.jar
 │   ├── kubejs-neoforge-2101.7.2-build.363.jar
 │   └── rhino-2101.2.7-build.81.jar
 │
