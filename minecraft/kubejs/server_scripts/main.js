@@ -225,5 +225,165 @@ ServerEvents.recipes(event => {
         X: 'kubejs:t3_core'
     }).id('kubejs:t4_core_recipe');
 
-    console.info('[TaCZ Balance] Core recipes registered (15 cores).');
+    // =========================================================================
+    // ManyIdeas Core Panel/Plate (13)
+    // =========================================================================
+
+    // ----- 아카시아 판 — 아카시아 판자
+    event.shaped('manyideas_core:panel_acacia', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:acacia_planks'
+    }).id('kubejs:panel_acacia_recipe');
+
+    // ----- 자작나무 판 - 자작나무 판자
+    event.shaped('manyideas_core:panel_birch', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:birch_planks'
+    }).id('kubejs:panel_birch_recipe');
+
+    // ----- 진홍빛 판 — 진홍빛 판자
+    event.shaped('manyideas_core:panel_crimson', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:crimson_planks'
+    }).id('kubejs:panel_crimson_recipe');
+
+    // ----- 짙은 참나무 판 — 짙은 참나무 판자
+    event.shaped('manyideas_core:panel_dark_oak', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:dark_oak_planks'
+    }).id('kubejs:panel_dark_oak_recipe');
+
+    // ----- 정글나무 판 — 정글나무 판자
+    event.shaped('manyideas_core:panel_jungle', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:jungle_planks'
+    }).id('kubejs:panel_jungle_recipe');
+
+    // ----- 맹그로브나무 판 — 맹그로브나무 판자
+    event.shaped('manyideas_core:panel_mangrove', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:mangrove_planks'
+    }).id('kubejs:panel_mangrove_recipe');
+
+    // ----- 참나무 판 — 참나무 판자
+    event.shaped('manyideas_core:panel_oak', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:oak_planks'
+    }).id('kubejs:panel_oak_recipe');
+
+    // ----- 가문비나무 판 — 가문비나무 판자
+    event.shaped('manyideas_core:panel_spruce', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:spruce_planks'
+    }).id('kubejs:panel_spruce_recipe');
+
+    // ----- 뒤틀린 판 — 뒤틀린 판자
+    event.shaped('manyideas_core:panel_warped', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:warped_planks'
+    }).id('kubejs:panel_warped_recipe');
+
+    // ----- 구리 판 — 구리 조각
+    event.shaped('manyideas_core:plate_copper', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'create:copper_nugget'
+    }).id('kubejs:plate_copper_recipe');
+
+    // ----- 금 판 — 금 조각
+    event.shaped('manyideas_core:plate_gold', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:gold_nugget'
+    }).id('kubejs:plate_gold_recipe');
+
+    // ----- 철 판 — 철 조각
+    event.shaped('manyideas_core:plate_iron', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:iron_nugget'
+    }).id('kubejs:plate_iron_recipe');
+
+    // ----- 석영 판 — 석영
+    event.shaped('manyideas_core:plate_quartz', [
+        ' A ',
+        'A A',
+        ' A '
+    ], {
+         A: 'minecraft:quartz'
+    }).id('kubejs:plate_quartz_recipe');
+    console.info('[TaCZ Balance] Core recipes registered (15 cores). [ManyIdeas Core] Panel/Plate recipes registered (13 items).');
+    
+    // =========================================================================
+    // 제작법 수정/변경/삭제
+    // =========================================================================
+
+    // ----- 메카니즘 텔레포터 제작법 삭제
+    event.remove({id: 'mekanism:teleporter'})
+    event.remove({id: 'mekanism:teleporter_frame'})
+
+    // ----- 구리 양조대 제작법 변경 — 보초 갑옷 장식 대장장이 형판 -> 네더라이트 강화 대장장이 형판
+    event.remove({output: 'brewery:copper_brewingstation'})
+    event.smithing(
+    'brewery:copper_brewingstation',
+    'minecraft:netherite_upgrade_smithing_template',
+    'brewery:wooden_brewingstation',
+    'minecraft:copper_ingot'
+    )
+});
+ServerEvents.tags('item', event => {
+    
+    // ----- 우유 테그 수정
+    event.add('c:foods/milk', [
+    'minecraft:milk_bucket',
+    'farmersdelight:milk_bottle'
+    ])
+
+    // ----- 머리 테그 수정
+    event.add('c:heads', [
+    '#minecraft:skulls'
+    ])
+
+    // ----- 강철 판 테그 수정 — 강철 판 -> 강철 주괴
+    event.add('c:plates/steel', [
+    '#c:ingots/steel'
+    ])
+
+    // ----- 유리 테그 수정
+    event.add('c:glass', [
+    '#c:glass_blocks'
+    ])
 });

@@ -1,0 +1,66 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1778675184273,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/D2BCiaSOCd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Oxygen193",
+      "uniqueId": "ce95706f-1b5e-41e6-94a0-23c09134f448"
+    },
+    "time": 1778674986855,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lNmX6Li4MH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Sinsarobin",
+      "uniqueId": "2b39ebb7-6fbd-4dcb-b8eb-2b9c3626150d"
+    },
+    "time": 1778674986248,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/45kYrVczPC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Sinsarobin",
+      "uniqueId": "2b39ebb7-6fbd-4dcb-b8eb-2b9c3626150d"
+    },
+    "time": 1778674984792,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FLMYYUmlK5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Oxygen193",
+      "uniqueId": "ce95706f-1b5e-41e6-94a0-23c09134f448"
+    },
+    "time": 1778674678364,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IwO5Vi3qgj"
+    }
+  }
+]

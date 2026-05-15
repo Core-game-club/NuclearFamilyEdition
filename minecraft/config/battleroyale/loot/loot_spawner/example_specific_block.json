@@ -1,0 +1,86 @@
+[
+  {
+    "lootId": 0,
+    "name": "Loot specific block example",
+    "color": "#FFFFFFAA",
+    "entry": {
+      "lootType": "abort",
+      "lootDistance": 1,
+      "slotDistance": 1,
+      "countEmpty": true,
+      "entries": [
+        {
+          "lootType": "regex",
+          "invert": false,
+          "regex": "id:\"minecraft:chest\"",
+          "entry": {
+            "lootType": "multi",
+            "entries": [
+              {
+                "lootType": "empty",
+                "type": "item"
+              },
+              {
+                "lootType": "message",
+                "onlyGamePlayer": false,
+                "sendPosition": true,
+                "message": "Detected: Chest",
+                "messageColor": "#FFFF00"
+              }
+            ]
+          }
+        },
+        {
+          "lootType": "regex",
+          "invert": false,
+          "regex": "id:\"minecraft:barrel\"",
+          "entry": {
+            "lootType": "multi",
+            "entries": [
+              {
+                "lootType": "empty",
+                "type": "item"
+              },
+              {
+                "lootType": "message",
+                "onlyGamePlayer": false,
+                "sendPosition": true,
+                "message": "Detected: Barrel",
+                "messageColor": "#FFA500"
+              }
+            ]
+          }
+        },
+        {
+          "lootType": "regex",
+          "invert": false,
+          "regex": "id:\"battleroyale:loot_spawner\"",
+          "entry": {
+            "lootType": "multi",
+            "entries": [
+              {
+                "lootType": "empty",
+                "type": "item"
+              },
+              {
+                "lootType": "message",
+                "onlyGamePlayer": false,
+                "sendPosition": true,
+                "message": "Detected: Loot spawner",
+                "messageColor": "#00FF00"
+              }
+            ]
+          }
+        },
+        {
+          "lootType": "regex",
+          "invert": false,
+          "regex": "",
+          "entry": {
+            "lootType": "none"
+          }
+        }
+      ]
+    }
+  }
+]
