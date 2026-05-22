@@ -1,3 +1,67 @@
 minecraft/mods/bluemap-*.jar
 minecraft/config/discord_chat_mod-common.toml
 minecraft/config/yes_steve_model/
+
+# ===== 개인 데이터 (언어, 조작키, 워프포인트 등) =====
+
+# Minecraft 기본 클라이언트 설정
+minecraft/options.txt
+minecraft/optionsof.txt
+minecraft/optionsshaders.txt
+minecraft/hotbar.nbt
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/realms_persistence.json
+
+# 모든 클라이언트 사이드 모드 설정 (-client 및 _client 변형)
+minecraft/config/**/*-client.toml
+minecraft/config/**/*-client.json
+minecraft/config/**/*-client.snbt
+minecraft/config/**/*-client.cfg
+minecraft/config/**/*_client.toml
+minecraft/config/**/*_client.json
+minecraft/config/**/client.toml
+minecraft/config/**/client.json
+minecraft/config/**/client.cfg
+minecraft/config/mtsconfigclient.json
+minecraft/kubejs/config/client.json
+
+# Xaero 미니맵/월드맵 (워프포인트 포함)
+minecraft/xaero/
+minecraft/XaeroWaypoints_BACKUP*
+minecraft/config/xaero/**/profiles/
+minecraft/config/xaero/**/default_radar_categories_*.json
+minecraft/config/xaerohud.txt
+minecraft/config/xaeropatreon.txt
+
+# 그래픽/셰이더 개인 설정
+minecraft/config/sodium-options.json
+minecraft/config/sodium-extra.properties
+minecraft/config/sodium-extra-options.json
+minecraft/config/sodium-mixins.properties
+minecraft/config/sodium-fingerprint.json
+minecraft/config/iris.properties
+minecraft/config/iris-excluded.json
+minecraft/config/dynamic_fps.json
+minecraft/config/entityculling.json
+minecraft/config/immediatelyfast.json
+minecraft/config/transition.json
+minecraft/config/trender.json
+
+# UI/조작 개인 설정
+minecraft/config/MouseTweaks.cfg
+minecraft/config/emi.css
+minecraft/config/jade/jade.json
+minecraft/config/jade/hide-blocks.json
+minecraft/config/jade/hide-entities.json
+minecraft/config/jade/plugins.json
+minecraft/config/jade/sort-order.json
+
+# 기타 클라이언트 전용
+minecraft/config/NoChatReports/NCR-Client.json
+minecraft/config/NoChatReports/NCR-Encryption.json
+minecraft/config/NoChatReports/NCR-ServerPreferences.json
+minecraft/config/fabric/
+minecraft/config/fzzy_config/
+minecraft/config/l2configs/
+minecraft/config/spark/tmp/
