@@ -355,6 +355,9 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mekanism:teleporter'})
     event.remove({id: 'mekanism:teleporter_frame'})
 
+    // ----- AE2 시공 정박기 제작법 삭제
+    event.remove({id: 'ae2:spatial_anchor'})
+
     // ----- 구리 양조대 제작법 변경 — 보초 갑옷 장식 대장장이 형판 -> 네더라이트 강화 대장장이 형판
     event.remove({output: 'brewery:copper_brewingstation'})
     event.smithing(
@@ -385,5 +388,15 @@ ServerEvents.tags('item', event => {
     // ----- 유리 테그 수정
     event.add('c:glass', [
     '#c:glass_blocks'
+    ])
+
+    // =========================================================================
+    // 집라인 호환 도구 추가
+    // =========================================================================
+
+    event.add('zipline:attachment', [
+    'mekanism:atomic_disassembler',
+    'mekanism:meka_tool',
+    'mekanism:configurator'
     ])
 });

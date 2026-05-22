@@ -15,10 +15,10 @@
 	#.
 	#.
 	#Allow the Mechanical Press to process entire stacks at a time.
-	bulkPressing = false
+	bulkPressing = true
 	#.
 	#Allow the Mechanical Saw to process entire stacks at a time.
-	bulkCutting = false
+	bulkCutting = true
 	#.
 	#Allow supported potions to be brewed by a Mechanical Mixer + Basin.
 	allowBrewingInMixer = true
@@ -542,7 +542,7 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
@@ -573,7 +573,7 @@
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 28.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
